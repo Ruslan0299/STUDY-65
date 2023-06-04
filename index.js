@@ -67,7 +67,3 @@ app.delete('/remove/:id', async (req, res)=> {
         console.log(err);
     }
 });
-
-app.get('/login', (req, res) => {
-    res.render('login')
-});
